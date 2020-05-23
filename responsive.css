@@ -1,0 +1,39 @@
+/* This is responsive css for ipad/smartphone others */
+
+@media (max-width: 991px){
+  .title-img{
+    position: static;
+    transform: rotate(0deg);
+    width: 40%;
+  }
+}
+ @media (max-width: 740px){
+   .copp{
+     text-align: center;
+   }
+   h1{
+     font-size: 2.5rem;
+     line-height: 1;
+   }
+   .dwn-btn{
+     padding: 2px;
+     border: 2px solid;
+
+   }
+   .navbar-brand{
+     font-size: 2rem;
+   }
+   #testimonials h2{
+     font-size: 2rem;
+   }
+   .big{
+     font-size: 1.5rem;
+   }
+   #cta h3{
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
+   }
+   #footer{
+     padding: 5% 20%;
+   }
+ }
